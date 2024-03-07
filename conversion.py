@@ -1,20 +1,17 @@
-# Practical Task 3 of Module 1 
-# This is conversion.py file 
-num1 = 99.23
-num2 = 23
-num3 = 150
-string1 = "100"
+#Talking/ Commenting through my process: 
+# I am firstly delcaring variables of different data types below:
+var1 = int(99.23)
+var2 = float(23)
+var3 = str(150)
+var4 = int("100")
 
-num1=int(num1)
-num2=float(num2)
-num3=str(num3)
-string1=int(string1)
+# I then print what I get once I change the variable type to check that I have converted data type correctly 
+print(var1) #99 (after converting 99.23 into an integer)
+print (var2) #23.0 (after converting 23 into a float)
+print(var3) #"150"(after converting 150 into a string)
+print(var4) # 100 (after converting "100" string to an integer)
 
-print(num1)
-print (num2)
-print(num3)
-print(string1)
-
+# Then I get python to print out a command, telling me what the new data type of the variables i've printed out are:
 print("Types:")
 print(type(num1))
 print(type(num2))
